@@ -1,0 +1,58 @@
+
+
+(TOP (SBARQ (WHNP (WHNP (WDT Which)) (PP (IN of) (NP (DT these)))) (SQ (VP (VBP serve) (NP (NN dinner))))) (PUNC ?))
+(TOP (SBARQ (WHNP (WDT Which) (NNS ones)) (SQ (VP (VBP stop) (PP (IN in) (NP (NNP Nashville)))))) (PUNC ?))
+
+(TOP (SBARQ (WHNP (WHNP (WDT What) (NNS flights))) (SQ (VBP do) (NP (PRP you)) (VP (VBP have) (PP (IN from) (NP (NNP Ontario)))))) (PUNC ?))
+(TOP (SBARQ (WHADVP (WRB Where)) (SQ (VBP does) (NP (DT this) (NN flight)) (VP (VB stop)))) (PUNC ?))
+(TOP (SBARQ (WHNP (WHNP (WDT What) (NN type)) (PP (IN of) (NP (NN aircraft)))) (SQ (VBZ is) (NP (JJ Alaska) (NN 's) (NN flight) (CD two) (CD eighty) (CD two)))) (PUNC ?))
+
+(TOP (S (NP (PRP I)) (VP (MD 'd) (VP (VB like) (S (VP (TO to) (VP (VB fly) (PP (IN from) (NP (NNP Tampa))) (PP (TO to) (NP (NNP Montreal))))))))) (PUNC .))
+
+
+(TOP (SBARQ (WHNP (WDT Which) (NNS ones)) (SQ (VP (VBP leave) (PP (IN in) (NP (DT the) (NN morning)))))) (PUNC ?))
+(TOP (SBARQ (WHNP (WHNP (WDT Which)) (PP (IN of) (NP (DT these) (NNS flights)))) (SQ (VP (VBP serve) (NP (NN dinner))))) (PUNC ?))
+
+(TOP (S (VP (VB Show) (NP (PRP me)) (NP (NP (NP (PDT all) (DT the) (NNS fares)) (PP (IN from) (NP (CD one) (NN way))) (NNS fares)) (PP (IN from) (NP (NNP Tacoma))) (PP (TO to) (NP (NNP Montreal)))))) (PUNC .))
+
+
+(TOP (S (VP (VB List) (NP (NP (DT all) (NNS flights)) (PP (IN from) (NP (NNP Burbank))) (PP (TO to) (NP (NNP Denver)))))) (PUNC .))
+
+
+
+(TOP (SBARQ (WHNP (WHNP (WDT What) (NNS flights))) (SQ (VBP are) (NP (NP (EX there))) (PP (IN from) (NP (NNP Houston))) (PP (TO to) (NP (NNP Dallas))))) (PUNC ?))
+
+(TOP (FRAG (NP (NP (NNS Flights)) (PP (IN from) (NP (NNP Cleveland))) (PP (TO to) (NP (NNP Miami))))) (PUNC .))
+(TOP (FRAG (NP (NP (NNS Flights)) (PP (IN on) (NP (NNP Sunday))) (PP (IN from) (NP (NNP Tampa))) (PP (TO to) (NP (NNP Charlotte))))) (PUNC .))
+
+
+(TOP (S (NP (JJ Display) (NNS flights)) (VP (VBG arriving) (PP (IN within) (NP (NP (CD thirty) (NNS minutes)) (PP (IN of) (NP (DT each) (JJ other))))))) (PUNC .))
+(TOP (S (VP (VB Show) (NP (PRP me)) (NP (DT the) (NN fare)))) (PUNC .))
+(TOP (SBARQ (WHNP (WP What)) (SQ (VBP 's) (NP (NP (DT the) (JJS earliest) (NN flight)) (PP (IN from) (NP (NNP Dallas))) (PP (TO to) (NP (NNP Houston)))))) (PUNC ?))
+
+
+(TOP (FRAG (NP (NP (WDT What) (NNS flights)) (PP (IN from) (NP (NNP Washington))) (SYM D) (NNP C) (PP (TO to) (NP (NNP Toronto))))) (PUNC .))
+
+
+(TOP (SBARQ (WHNP (WP What)) (SQ (VBZ is) (NP (DT the) (NN price)))) (PUNC ?))
+(TOP (FRAG (PP (IN On) (NP (NNP Thursday)))) (PUNC .))
+
+
+(TOP (FRAG (NP (NP (NNS Flights)) (PP (IN from) (NP (NNP Ontario))) (X (TO to)) (ADVP (RB Florida)))) (PUNC .))
+(TOP (FRAG (NP (NP (JJ First) (NN class) (JJ round) (NN trip) (NN airfare)) (PP (IN from) (NP (NNP Indianapolis))) (PP (TO to) (NP (NNP Memphis))))) (PUNC .))
+(TOP (FRAG (NP (NP (NNS Flights)) (PP (IN from) (NP (NNP Boston))) (PP (TO to) (NP (NNP Pittsburgh))))) (PUNC .))
+
+(TOP (S (VP (VB Restriction) (NP (NN code) (NNP A) (SYM P) (CD slash) (CD five) (CD seven)))) (PUNC .))
+
+(TOP (FRAG (VP (VBG Departing) (PP (IN before) (NP (CD ten) (RB a.m))))) (PUNC .))
+(TOP (FRAG (NP (JJS Cheapest) (NN fare))) (PUNC .))
+(TOP (FRAG (VP (VBG Departing) (PP (IN after) (NP (CD six) (RB p.m))))) (PUNC .))
+
+
+(TOP (FRAG (NP (NNP Newark)) (PP (TO to) (NP (NNP Cleveland)))) (PUNC .))
+
+
+(TOP (S (VP (VB Show) (NP (PRP me)) (NP (DT the) (NNS fares)))) (PUNC .))
+
+
+(TOP (S (VP (VB Show) (NP (PRP me)) (NP (DT the) (NN restrictions)))) (PUNC .))

@@ -1,0 +1,2 @@
+The code uses the same commands as those given in the homework document.
+The same data is used in addition to an open-source dataset on movie names from Kaggle. The online dataset was downloaded and parsed to generate lexicon using the Pandas library in Python.

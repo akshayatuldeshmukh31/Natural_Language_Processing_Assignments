@@ -1,0 +1,15 @@
+The following features were used for the classifier:
+
+1. Unigram/Words (DEFAULT) - This feature was modified to remove common determiners and prepositions in the English language such as "the", "or", "and", etc. The website, http://www.world-english.org/english500.htm, was consulted to select words which weren't as important as adjectives, nouns, and verbs. The list of words which were excluded is:
+
+"not","no","do","nor","the","of","to","and","a","in","is","it","you","that","he","was","for","on","are","with","as","i","I","his","they","be","at","one","have","this","from","or","had","by","some","but","what","there","we","can","out","other","were","all","your","when","up","how","an","each","she","which","their","if","will","about","then","them","would","so","these","her","him","has","could","did","my","who","than","may","been","now","any","where","after","make","made","back","little","only","man","came","every","me","our","under","very","through","before","same","too","also","here","such","why","off","us","again","near","still","let","might","often","always","those","both","until","above","though","am"
+
+2. Number of words in a sentence - On observing s.data and b.data, it can be seen that Shakespeare tends to use around 8-9 words in a sentence on an average with little variation whereas Emily Bronte's word count is around 6 words per sentence with a lot of variation. This feature merely counts the number of words in a sentence.
+
+3. Total number of syllables in a sentence - On reading about Shakespeare's writing style, I learned that Shakespeare uses iambic pentameters which is usually a sentence with around 10 syllables. Emily Bronte's data shows no affinity towards a particular number of syllables. Hence, the probability for 10 syllables in a sentence would be high for Shakespeare and hence this feature was chosen. The CMU dictionary was used for this purpose.
+
+4. Total number of characters in a sentence - With a constant number of words in s.data, intuitively s.data should have a constant number characters in each sentence. b.data shows variation in the number of characters in a sentence and hence the probability of this feature for Bronte's sentences will be lower than those of Shakespeare.
+
+5. Old English word count - On examining the frequencies of every word in s.data and b.data, s.data has more frequent archaic words than b.data. Since Shakespeare existed about a century earlier than Bronte, s.data would make more use of archaic words in English. This feature counts the number of such words in a sentence and the probability of this feature would generally be high for Shakespeare as compared to Bronte. The list of archaic words used is:
+
+"thy","thou","thee","thine","doth","art","hath","dost","hast","thyself"
